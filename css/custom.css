@@ -1,7 +1,11 @@
-.fixed .col-lg-4 {
+
+.adm-left-panel {
     position: fixed;
-    background-color: red;
+    top: 4em;
+    left: 4em;
 }
-.scrollit .col-lg-8 {
+
+
+.adm-col-workarea {
     background-color: #c0c0c0;
 }
