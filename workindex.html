@@ -17,19 +17,27 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-4">
-            <div class="adm-left-panel" ng-controller="InfoCtrl">
-                <div style="position: relative" class="center-block">
-                    <img class="img-responsive img-circle" src="images/tony_small3b.jpg" align="{{author}}" width="150px" height="150px">
-                    <h4>{{author}}</h4>
-                    <p class="text-center">Web addicted,<br>passionate of cloud and mobile.</p>
+            <div class="adm-header-panel" ng-controller="InfoCtrl">
+                <div class="adm-avatar">
+                    <img class="img-circle" src="images/tony_small3b.jpg" align="{{author}}" width="150px" height="150px">
+                </div>
+                <div class="adm-caption">
+                    <p><h4>{{author}}</h4></p>
+                    <p>Web addicted, passionate of cloud and mobile.</p>
+                </div>
+                <hr>
+                <div class="adm-social">
+                    <a href="about.html">About me</a>
+                    <a href="resume.html">My resume</a>
                 </div>
             </div>
         </div>
         <div class="col-lg-9 col-md-9 col-sm-8">
-            <div class="adm-col-workarea" ng-controller="ArticleCtrl">
+            <div class="adm-workarea-panel" ng-controller="ArticleCtrl">
                 <div ng-repeat="item in articles">
-                    <h5>{{item.title}}</h5>
-                    <p class="lead">{{item.description}}</p>
+                    <h5>{{item.title}} ({{item.date}})</h5>
+                    <p class="lead">{{item.summary}}</p>
+                    <a href="http://localhost:63342/antdimot.github.io/data/{{item.file}}">Read more.</a>
                 </div>
             </div>
         </div>

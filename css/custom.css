@@ -1,11 +1,29 @@
 
-.adm-left-panel {
+div.adm-header-panel {
+    float: left;
+    padding-top: 6em;
     position: fixed;
-    top: 4em;
-    left: 4em;
+    text-align: center;
+    display: table;
+    /*background-color: red;*/
 }
 
-
-.adm-col-workarea {
+div.adm-workarea-panel {
+    padding-top: 1em;
+    float: left;
     background-color: #c0c0c0;
 }
+
+div.adm-avatar {
+    padding-bottom: 2em;
+}
+
+div.adm-caption p {
+    display: table;
+}
+
+div.adm-social a {
+    display: table;
+}
+
+
