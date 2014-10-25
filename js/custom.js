@@ -6,38 +6,19 @@ app.controller('InfoCtrl', function ($scope) {
 });
 
 app.controller('ArticleCtrl', function ($scope) {
-    $scope.articles = articles2;
+    $scope.articles = articles;
 });
 
 var articles  = [
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
+    { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' },
     { file:'article1.md', title:'article1', summary:'bla bla bla bla bla', date:'31/10/2014' }
-];
-
-var articles2 = [
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' },
-    { title:'title title title', description:'bla bla bla bla bla bla bla' }
 ];

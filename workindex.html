@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ADIMO</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <script src="js/jquery-2.1.1.min.js" language="JavaScript"></script>
     <script src="js/bootstrap.min.js" language="JavaScript"></script>
@@ -22,22 +24,47 @@
                     <img class="img-circle" src="images/tony_small3b.jpg" align="{{author}}" width="150px" height="150px">
                 </div>
                 <div class="adm-caption">
-                    <p><h4>{{author}}</h4></p>
+                    <p class="lead"><h4>{{author}}</h4></p>
                     <p>Web addicted, passionate of cloud and mobile.</p>
+                    <hr>
+                    <p><a href="about.html" class="btn btn-default">About me</a></p>
+                    <p><a href="resume.html" class="btn btn-default">My resume</a></p>
                 </div>
-                <hr>
                 <div class="adm-social">
-                    <a href="about.html">About me</a>
-                    <a href="resume.html">My resume</a>
+                    <p>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/dimotta">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/dimotta">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-github" href="http://github.com/antdimot">
+                            <i class="fa fa-github-square"></i>
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
         <div class="col-lg-9 col-md-9 col-sm-8">
             <div class="adm-workarea-panel" ng-controller="ArticleCtrl">
-                <div ng-repeat="item in articles">
-                    <h5>{{item.title}} ({{item.date}})</h5>
-                    <p class="lead">{{item.summary}}</p>
-                    <a href="http://localhost:63342/antdimot.github.io/data/{{item.file}}">Read more.</a>
+                <div class="row" >
+                    <div class="col-lg-4 col-md-6" ng-repeat="item in articles">
+
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="http://localhost:63342/antdimot.github.io/data/{{item.file}}">
+                                    {{item.title}}
+                                    </a>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <p class="text-left">{{item.summary}}</p>
+                                <small>{{item.date}}</small>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
