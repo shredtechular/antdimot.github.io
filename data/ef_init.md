@@ -1,17 +1,17 @@
 # Entity Framework database initialization
 
-With version 4.1 or later Entity Framework provides a useful way for recreate and optionally re-seed the database with data the first time or before the execution of unit test.
+Starting from version 4.1, the Entity Framework provides an useful way for creating and optionally re-seed the database with data at first time execution or before the execution of unit test.
 
-For this purpose Microsoft provides some classes:
+For this purpose, Microsoft provides some classes:
 
 * CreateDatabaseIfNotExists
 * DropCreateDatabaseAlways
 * DropCreateDatabaseIfModelChanges
 
-All classes implement interface **IDatabaseInitializer<T>** where T is a **DbContext**.
+All classes implements the interface **IDatabaseInitializer<T>** where T is a **DbContext**.
 
-For example if you want populate database with base information before execute
-an unit test you can write code like this:
+For example, if you want to populate database with base information before executing
+an unit test, you can write a code like this:
 
     public class MyTestIntializer : DropCreateDatabaseAlways<MyContext>
     {
@@ -42,7 +42,7 @@ an unit test you can write code like this:
         }
     }
 
-This data initializer drop (if exists) and create database and finally populate it with categories and products.
+This data initializer drop (if exists), create database and finally populate it with categories and products.
 
 Now we can add it to our test class.
 

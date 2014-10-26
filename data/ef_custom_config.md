@@ -1,6 +1,6 @@
 # Entity Framework custom configuration
 
-With [EF Code-First](http://msdn.microsoft.com/en-us/data/aa937723) it’s easy create a database starting from domain objects, 
+With [EF Code-First](http://msdn.microsoft.com/en-us/data/aa937723) it’s easy to create a database starting from domain model, 
 but it’s always possible create an **our custom configuration**.
 
 In my project I have two class, Role and User:
@@ -25,8 +25,8 @@ In my project I have two class, Role and User:
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
-If you want create custom configuration for User and Role, you can write others two class that works as configuration,
-**RoleConfigration** and **UserConfiguration** that extend *EntityTypeConfiguration*:
+If you want to create custom configuration for User and Role entities, you can write others two class that works as configuration,
+**RoleConfigration** and **UserConfiguration** which extend *EntityTypeConfiguration*:
 
     // custom configuration for Role
     public class RoleConfiguration : EntityTypeConfiguration<Role>
@@ -59,7 +59,7 @@ If you want create custom configuration for User and Role, you can write others 
             HasMany( o => o.Roles ).WithMany();
         }
     }
-Now, for use our custom configuration, we will simply add RoleConfiguration and UserConfiguration to **DbContext**:
+Now, for using our custom configuration, we will add RoleConfiguration and UserConfiguration to **DbContext**:
 
     public class MyDbContext : DbContext
     {
