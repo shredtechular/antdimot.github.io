@@ -2,7 +2,7 @@
     {
         "file":"ef_custom_config.md",
         "title":"EF Custom Configuration",
-        "summary":"With EF Code-First it’s easy to create a database starting from domain model, but it’s always possible create an **our custom configuration...",
+        "summary":"With EF Code-First it’s easy to create a database starting from domain model, but it’s always possible create an our custom configuration...",
         "date":"16/03/2012",
         "color":"info" },
     {
