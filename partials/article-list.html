@@ -1,0 +1,21 @@
+<div class="adm-workarea-panel" ng-controller="ArticleListCtrl">
+    <div class="row" >
+        <div class="col-lg-4 col-md-6" ng-repeat="item in articles">
+
+            <div class="panel panel-{{item.color}}">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a href="#/article/{{item.file}}">
+                            {{item.title}}
+                        </a>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <p class="text-left">{{item.summary}}</p>
+                    <small>{{item.date}}</small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
