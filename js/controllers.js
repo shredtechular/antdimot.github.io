@@ -4,7 +4,6 @@ var appControllers = angular.module('appControllers', []);
 
 appControllers.controller('InfoCtrl',[ '$scope','$http', function ($scope,$http) {
     $http.get('data/config.json').success(function(data) {
-        $scope.website = data.website;
         $scope.author = data.author;
         $scope.description = data.description;
         $scope.twitter = data.twitter;
