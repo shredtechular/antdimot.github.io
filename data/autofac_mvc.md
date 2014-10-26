@@ -43,3 +43,5 @@ Now, it’s easy to register your types and what should resolver use:
         DependencyResolver.SetResolver(
             new AutoFacDependencyResolver( containerBuilder ) );
     }
+
+*Antonio Di Motta*

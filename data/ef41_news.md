@@ -47,3 +47,5 @@ What's happened?
 Simply, at the time for executing the method **ToList()**, the EF engine will generate for us a new database (Sql Server),
 with the name MyContext containing the required tables for persisting the entities defined as **DbSet** into class *MyContext* and then
 will execute a T-Sql query provides from *LINQ* provider of Entity Framework.
+
+*Antonio Di Motta*

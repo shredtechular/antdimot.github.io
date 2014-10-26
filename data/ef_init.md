@@ -51,3 +51,5 @@ Now we can add it to our test class.
     {
         Database.SetInitializer<MyContext>( new MyTestIntializer() );
     }
+
+*Antonio Di Motta*

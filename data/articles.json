@@ -1,5 +1,11 @@
 [
     {
+        "file":"onepage_blog.md",
+        "title":"One page blog",
+        "summary":"Yes, I have changed my blog again, but this time i have decided to design and coding it personally.",
+        "date":"26/10/2014",
+        "color":"danger" },
+    {
         "file":"ef_custom_config.md",
         "title":"EF Custom Configuration",
         "summary":"With EF Code-First it’s easy to create a database starting from domain model, but it’s always possible create an our custom configuration...",

@@ -42,5 +42,5 @@ Below the code that I wrote:
             .Where( r => r.RType == ResourceType.BigPhoto )
             .Select( r => r.Id ).SingleOrDefault() )
             
-
+*Antonio Di Motta*
     
