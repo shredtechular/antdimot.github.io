@@ -36,7 +36,7 @@ How did i put a complex logic into a web page without going crazy?
 The answer was [Angularjs](https://angularjs.org).
 
 What is Angularjs?
-Following the description as reported on home page of the project?
+Following the description as reported on home page of the project.
 
 *"HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications.
 AngularJS lets you extend HTML vocabulary for your application.
