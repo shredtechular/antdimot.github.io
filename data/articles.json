@@ -1,30 +1,30 @@
 [
     {
-        "file":"onepage_blog.md",
+        "file":"onepage_blog",
         "title":"One page blog",
         "summary":"Yes, I have changed my blog again, but this time i decided to design and coding it personally.",
         "date":"26/10/2014",
         "color":"danger" },
     {
-        "file":"ef_custom_config.md",
+        "file":"ef_custom_config",
         "title":"EF Custom Configuration",
         "summary":"With EF Code-First it’s easy to create a database starting from domain model, but it’s always possible create an our custom configuration...",
         "date":"16/03/2012",
         "color":"info" },
     {
-        "file":"ef_init.md",
+        "file":"ef_init",
         "title":"EF database initialization",
         "summary":"Starting from version 4.1, the Entity Framework provides an useful way for creating and optionally re-seed the database with data at first time...",
         "date":"24/01/2012",
         "color":"success" },
     {
-        "file":"autofac_mvc.md",
+        "file":"autofac_mvc",
         "title":"Autofac Dependency resolution",
         "summary":"From the current version of ASP.NET MVC (release 3+) supports a new IDependencyResolver interface that makes it easier to...",
         "date":"18/01/2012",
         "color":"warning" },
     {
-        "file":"mongo_lab_restc.md",
+        "file":"mongo_lab_restc",
         "title":"MongoLab Rest Client",
         "summary":"I love build ASP.NET MVC projects using C# for this reason I’m searching an inexpensive way for publish my web projects using...",
         "date":"05/01/2012",
@@ -36,13 +36,13 @@
         "date":"20/12/2011",
         "color":"default" },
     {
-        "file":"ef_onmodel.md",
+        "file":"ef_onmodel",
         "title":"EF 4.1 – OnModelCreating",
         "summary":"Also if EF 4.1 can generate the database for us, we still have the possibility to manage how the database have to be built...",
         "date":"18/06/2011",
         "color":"primary" },
     {
-        "file":"ef41_news.md",
+        "file":"ef41_news",
         "title":"Entity Framework 4.1 – News",
         "summary":"I must admit I like very much the last release (4.1) of Entity Framework. Although the EF team have also to work hard to catch up the quality...",
         "date":"08/06/2011",

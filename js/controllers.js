@@ -21,7 +21,7 @@ appControllers.controller('ArticleListCtrl', ['$scope', '$http', function ($scop
 
 appControllers.controller('ArticleDetailCtrl', ['$scope', '$http', '$routeParams', '$sanitize',
     function($scope,$http,$routeParams) {
-        var url = 'data/' + $routeParams.filename;
+        var url = 'data/' + $routeParams.filename + ".md";
 
         $http.get(url).success(function(data) {
             var mkconverter = new Markdown.Converter();
