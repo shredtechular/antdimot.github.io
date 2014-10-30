@@ -6,6 +6,7 @@ appControllers.controller('InfoCtrl',[ '$scope','$http', function ($scope,$http)
     $http.get('data/config.json').success(function(data) {
         $scope.author = data.author;
         $scope.description = data.description;
+        $scope.about = data.about;
         $scope.twitter = data.twitter;
         $scope.linkedin = data.linkedin;
         $scope.github = data.github;
