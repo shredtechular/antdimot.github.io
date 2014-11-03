@@ -1,11 +1,23 @@
 
-div.adm-header-panel {
-    float: left;
-    padding-top: 6em;
-    position: fixed;
-    text-align: center;
-    display: table;
-    /*background-color: red;*/
+@media screen and (max-width: 768px) {
+    .adm-header-panel {
+        float: left;
+        padding-top: 6em;
+        position: inherit;
+        text-align: center;
+        display: table;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .adm-header-panel {
+        float: left;
+        padding-top: 6em;
+        position: fixed;
+        text-align: center;
+        display: table;
+        /*background-color: red;*/
+    }
 }
 
 div.adm-workarea-panel {
