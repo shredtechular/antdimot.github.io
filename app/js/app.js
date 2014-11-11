@@ -1,5 +1,5 @@
 
-var app = angular.module('adm', [
+var app = angular.module('onepageblog', [
     'ngRoute',
     'ngSanitize',
     'appControllers'

@@ -1,6 +1,6 @@
-# Entity Framework 4.1 – News
+# Entity Framework 4.1 news
 
-I must admit I like very much the last release (4.1) of [Entity Framework](http://msdn.microsoft.com/en-us/data/aa937723).
+I like very much the last release (4.1) of [Entity Framework](http://msdn.microsoft.com/en-us/data/aa937723).
 Although the EF team have to work hard to catch up the quality of [NHibernate](http://www.nhforge.org/) (it is still the best ORM), but
 they are on the right way.
 

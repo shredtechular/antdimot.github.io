@@ -1,6 +1,6 @@
-# EF 4.1 – OnModelCreating
+# Entity Framework model init
 
-Also if EF 4.1 can generate the database for us, we still have the possibility to manage how the database have to be built.
+Also if Entity Framework 4.1 can generate the database for us, we still have the possibility to manage how the database have to be built.
 All schema objects like tables, primary keys, column names and so on... can follow a specific construction behavior.
 
 To do this, we can make the override on the method OnModelCreating of DbContext class.
