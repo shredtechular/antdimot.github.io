@@ -6,6 +6,16 @@
         "date":"12/11/2014",
         "color":"danger",
         "tags":[
+            {"name":"angularjs"}
+        ]
+    },
+    {
+        "file":"onepage_blog",
+        "title":"One page blog",
+        "summary":"Yes, I have changed my blog again, but this time i decided to design and code it personally.",
+        "date":"26/10/2014",
+        "color":"danger",
+        "tags":[
             {"name":"design"},
             {"name":"angularjs"}
         ]
