@@ -11,8 +11,8 @@
     },
     {
         "file":"onepage_blog",
-        "title":"One page blog",
-        "summary":"Yes, I have changed my blog again, but this time i decided to design and code it personally.",
+        "title":"One page blog                             ",
+        "summary":"I have changed my blog again, but this time i decided to design and code it personally.",
         "date":"26/10/2014",
         "color":"danger",
         "tags":[
@@ -23,7 +23,7 @@
     {
         "file":"entity_framework_custom_config",
         "title":"Entity Framework custom configuration",
-        "summary":"With EF Code-First it’s easy to create a database starting from domain model, but it’s always possible create an our custom configuration...",
+        "summary":"With EF Code-First it’s easy to create a database starting from domain model, but it’s always possible create...",
         "date":"16/03/2012",
         "color":"primary",
         "tags":[
@@ -32,7 +32,7 @@
     {
         "file":"entity_framework_database_init",
         "title":"Entity Framework database initialization",
-        "summary":"Starting from version 4.1, the Entity Framework provides an useful way for creating and optionally re-seed the database with data at first time...",
+        "summary":"Starting from version 4.1, the Entity Framework provides an useful way for creating and optionally...",
         "date":"24/01/2012",
         "color":"primary",
         "tags":[
@@ -41,7 +41,7 @@
     {
         "file":"autofac_mvc_dependencyresolver",
         "title":"ASP.NET MVC dependency resolution and Autofac",
-        "summary":"From the current version of ASP.NET MVC (release 3+) supports a new IDependencyResolver interface that makes it easier to...",
+        "summary":"From the current version of ASP.NET MVC (release 3+) provides a new IDependencyResolver...",
         "date":"18/01/2012",
         "color":"primary",
         "tags":[

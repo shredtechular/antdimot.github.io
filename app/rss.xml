@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 	<channel>
-	  <title>Antonio Di Motta</title>
-	  <link>http://antdimot.github.io/app/</link>
-	  <description>The blog of Antonio Di Motta</description>
-	  <category>IT/Internet/Web/Cloud/Mobile/Startup</category>
-	  <item>
-		<title>Angularjs - Four ways to organize the code</title>
-		<link>http://antdimot.github.io/app/#/article/angularjs_organize_code</link>
-		<description>When starting a new javascript project a common question is...</description>
-		<category>angularjs</category>
-		<pubDate>Wed, 12 Nov 2014</pubDate>
-	  </item>
+		<title>Antonio Di Motta</title>
+		<link>http://antdimot.github.io/app/</link>
+		<description>The blog of Antonio Di Motta</description>
+		<category>IT/Internet/Web/Cloud/Mobile/Startup</category>
+		<item>
+			<title>Angularjs - Four ways to organize the code</title>
+			<link>http://antdimot.github.io/app/#/article/angularjs_organize_code</link>
+			<description>When starting a new javascript project a common question is...</description>
+			<category>angularjs</category>
+			<pubDate>Wed, 12 Nov 2014</pubDate>
+		</item>
+		<item>
+			<title>One page blog</title>
+			<link>http://antdimot.github.io/app/#/article/onepage_blog</link>
+			<description>I have changed my blog again, but this time i decided to design and code it personally.</description>
+			<category>design</category>
+			<category>angularjs</category>
+			<pubDate>Sub, 10 Oct 2014</pubDate>
+		</item>
 	</channel>
 </rss>
 

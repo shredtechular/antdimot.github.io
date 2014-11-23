@@ -1,6 +1,6 @@
 # ASP.NET MVC dependency resolution and Autofac
 
-From the current version of [ASP.NET MVC (release 3+)](http://www.asp.net/mvc) supports a new **IDependencyResolver** interface that makes it easier to integrate *DI frameworks*.
+From the current version of [ASP.NET MVC (release 3+)](http://www.asp.net/mvc) provides a new **IDependencyResolver** interface that makes it easier to integrate *DI frameworks*.
 
 For instance, if you are using [AutoFac](http://code.google.com/p/autofac/) you can write code like this:
 

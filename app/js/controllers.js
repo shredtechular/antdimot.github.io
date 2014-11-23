@@ -11,16 +11,17 @@ appControllers.controller('InfoCtrl',[ '$scope','$http', function ($scope,$http)
         $scope.linkedin = data.linkedin;
         $scope.github = data.github;
         $scope.imageurl = data.imageurl;
+        $scope.rss= data.rss;
     });
 }]);
 
-appControllers.controller('ArticleListCtrl', ['$scope', '$http', function ($scope, $http) {
+appControllers.controller('HomeCtrl', ['$scope', '$http', function ($scope, $http) {
     $http.get('data/articles.json').success(function(data) {
         $scope.articles = data;
     });
 }]);
 
-appControllers.controller('ArticleDetailCtrl', ['$scope', '$http', '$routeParams', '$sanitize',
+appControllers.controller('ArticleCtrl', ['$scope', '$http', '$routeParams', '$sanitize',
     function($scope,$http,$routeParams) {
         var url = 'data/' + $routeParams.filename + ".md";
 

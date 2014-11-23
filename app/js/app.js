@@ -9,12 +9,12 @@ app.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
             when('/home', {
-                templateUrl: 'partials/article-list.html',
-                controller: 'ArticleListCtrl'
+                templateUrl: 'partials/home-view.html',
+                controller: 'HomeCtrl'
             }).
             when('/article/:filename', {
-                templateUrl: 'partials/article-detail.html',
-                controller: 'ArticleDetailCtrl'
+                templateUrl: 'partials/article-view.html',
+                controller: 'ArticleCtrl'
             }).
             otherwise({
                 redirectTo: '/home'
