@@ -2,7 +2,8 @@
 @media screen and (max-width: 767px) {
     .adm-header-panel {
         float: left;
-        padding-top: 6em;
+        padding-top: 2em;
+        padding-left: 4em;
         position: inherit;
         text-align: center;
         display: table;
