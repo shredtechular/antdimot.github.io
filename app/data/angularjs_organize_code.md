@@ -1,4 +1,4 @@
-# Angularjs - Four ways to organize the code
+# AngularJS - Four ways to organize the code
 When starting a new javascript project a common question is "how do we organize the code?".
 There are many ways, tendencies, and techniques to organize the project's code within files and directories.
 Specially with projects based on [Angularjs](https://angularjs.org/) is possible summarize all techniques with four styles:
@@ -10,7 +10,7 @@ Specially with projects based on [Angularjs](https://angularjs.org/) is possible
 
 ### The inline style
 It's useful for making a presentation, for developing a fast and disposable application prototype or to evaluate a potential product idea.
-The only project structure consists of index.html file with inline declarations for the scripts and style:
+The only project structure consists of index.html file with inline declarations for the scripts and style.
 
     app/            -> files of the application
         index.html  -> main html file
@@ -19,7 +19,7 @@ The only project structure consists of index.html file with inline declarations 
 ### The stereotyped style
 This style is useful for small apps with a limited number of components
 such as controllers, services, directives, and filters.
-The approach is mandatory if you must develop a simple project, but
+The approach is mandatory if you must develop a simple project.
 
     app/                    -> files of the application
         lib/                -> javascript libraries
@@ -41,7 +41,6 @@ The approach is mandatory if you must develop a simple project, but
 ### The specific style
 It's very hard to maintain a lot of code inside the same file.
 When the project is growing can be useful splitting the scripts into specific ones.
-The code is as follows:
 
     app/                        -> files of the application
         lib/                    -> javascript libraries

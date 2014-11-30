@@ -1,4 +1,15 @@
 [
+
+    {
+        "file":"angularjs_builtin_directives",
+        "title":"Using built-in directives",
+        "summary":"One of the most important concept used from AngularJS is the directive.",
+        "date":"30/11/2014",
+        "color":"danger",
+        "tags":[
+            {"name":"angularjs"}
+        ]
+    },
     {
         "file":"angularjs_organize_code",
         "title":"Four ways to organize the code",
