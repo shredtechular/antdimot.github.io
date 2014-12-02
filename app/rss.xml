@@ -10,7 +10,7 @@
 			<link>http://antdimot.github.io/app/#/article/angularjs_builtin_directives</link>
 			<description>One of the most important concept used from AngularJS is the directive.</description>
 			<category>angularjs</category>
-			<category>directive</category>
+			<category>CodeProject</category>
 			<pubDate>Sun, 30 Nov 2014</pubDate>
 		</item>
 		<item>
@@ -18,13 +18,13 @@
 			<link>http://antdimot.github.io/app/#/article/angularjs_organize_code</link>
 			<description>When starting a new javascript project a common question is...</description>
 			<category>angularjs</category>
+			<category>CodeProject</category>
 			<pubDate>Wed, 12 Nov 2014</pubDate>
 		</item>
 		<item>
 			<title>One Page Blog</title>
 			<link>http://antdimot.github.io/app/#/article/onepage_blog</link>
 			<description>I have changed my blog again, but this time i decided to design and code it personally.</description>
-			<category>design</category>
 			<category>angularjs</category>
 			<pubDate>Sub, 10 Oct 2014</pubDate>
 		</item>
