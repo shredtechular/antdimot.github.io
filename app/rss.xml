@@ -6,6 +6,14 @@
 		<description>The blog of Antonio Di Motta</description>
 		<category>IT/Internet/Web/Cloud/Mobile/Startup</category>
 		<item>
+			<title>AngularJS - Using built-in directives (ngRepeat)</title>
+			<link>http://antdimot.github.io/app/#/article/angularjs_builtin_directives_ngrepeat</link>
+			<description>AngularJS - Using built-in directives (ngRepeat).</description>
+			<category>angularjs</category>
+			<category>CodeProject</category>
+			<pubDate>Thu, 04 Dic 2014</pubDate>
+		</item>
+		<item>
 			<title>AngularJS - Using built-in directives</title>
 			<link>http://antdimot.github.io/app/#/article/angularjs_builtin_directives</link>
 			<description>One of the most important concept used from AngularJS is the directive.</description>

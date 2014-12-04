@@ -1,8 +1,17 @@
 [
-
+    {
+        "file":"angularjs_builtin_directives_ngrepeat",
+        "title":"AngularJS - Using built-in directives (ngRepeat)",
+        "summary":"This is the second article about AngularJS built-in directives series.",
+        "date":"04/12/2014",
+        "color":"danger",
+        "tags":[
+            {"name":"angularjs"}
+        ]
+    },
     {
         "file":"angularjs_builtin_directives",
-        "title":"Using built-in directives",
+        "title":"AngularJS - Using built-in directives",
         "summary":"One of the most important concept used from AngularJS is the directive. It is an extension of the HTML ...",
         "date":"30/11/2014",
         "color":"danger",
@@ -12,8 +21,8 @@
     },
     {
         "file":"angularjs_organize_code",
-        "title":"Four ways to organize the code",
-        "summary":"When starting a new javascript project a common question is \"how do we organize the code?\"",
+        "title":"AngularJS - Four ways to organize the code",
+        "summary":"When starting a new AngularJS project a common question is \"how do we organize the code?\"",
         "date":"12/11/2014",
         "color":"danger",
         "tags":[
@@ -22,7 +31,7 @@
     },
     {
         "file":"onepage_blog",
-        "title":"One page blog                             ",
+        "title":"One Page Blog using AngularJS and Markdown",
         "summary":"I have changed my blog again, but this time i decided to design and code it personally.",
         "date":"26/10/2014",
         "color":"danger",

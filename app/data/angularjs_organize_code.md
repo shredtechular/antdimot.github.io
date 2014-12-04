@@ -1,5 +1,5 @@
 # AngularJS - Four ways to organize the code
-When starting a new javascript project a common question is "how do we organize the code?".
+When starting a new AngularJS project a common question is "how do we organize the code?".
 There are many ways, tendencies, and techniques to organize the project's code within files and directories.
 Specially with projects based on [Angularjs](https://angularjs.org/) is possible summarize all techniques with four styles:
 

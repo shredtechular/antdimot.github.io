@@ -31,6 +31,7 @@ We can attach any controller to the view using the ngController directive, so th
            <script src="angular.js"></script>
            <script>
                 var app = angular.module("onepageblog", []);
+
                 app.controller("homeCtrl", function ($scope) {
                     $scope.message = "Hello World!";
                 });
