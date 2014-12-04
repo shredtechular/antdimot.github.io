@@ -54,7 +54,7 @@ Here there is a practical example:
 
 As you can see, i defined a controller called **articleCtrl** which is responsable for loading the array of articles.
 
-In the html code there is the directive **ngRepeat** that used the expression **"item in articles"** for cycling the table row,
+In the html code there is the directive **ngRepeat** with the expression **"item in articles"** for cycling the table row,
 which is used to show all article data.
 
 
