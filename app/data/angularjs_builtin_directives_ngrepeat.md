@@ -3,8 +3,8 @@ This is the second article about AngularJS built-in directives series.
 Into the [first article](#/article/angularjs_builtin_directives) i used  *ngController* and now it's time to see how to manage the data into the html web page and to do that i describe the directive ngRepeat.
 
 ### The ngRepeat directive
-It directive is useful to iterate over arrays and objects and can be used with any elements of a list such as options of select and rows of a table.
-The scope is provide a repeat expression that describes how iterate over the array using a variable that will hold each item in the iteration.
+This directive is useful to iterate over arrays and objects and can be used with any elements of a list such as options of select and rows of a table.
+It provides a repeat expression that describes how iterate over the array using a variable that will hold each item in the iteration.
 
 Here there is a practical example:
 
@@ -20,7 +20,7 @@ Here there is a practical example:
                     $scope.articles = [
                         {
                             "title":"AngularJS - Using built-in directives",
-                            "summary":"One of the most important concept used from AngularJS is the directive. It is an extension of the HTML ...",
+                            "summary":"One of the most important concept used from AngularJS is the directive. It is an extension ...",
                             "date":"30/11/2014"
                         },
                         {
@@ -52,6 +52,9 @@ Here there is a practical example:
         </body>
     </html>
 
-As you can see, i defined a controller called **articleCtrl** which is responsable for setting the array of articles.
-In the html code i used the directive *ngRepeat* using the expression *"item in articles"* for cycling the table row,
+As you can see, i defined a controller called **articleCtrl** which is responsable for loading the array of articles.
+
+In the html code there is the directive **ngRepeat** that used the expression **"item in articles"** for cycling the table row,
 which is used to show all article data.
+
+
