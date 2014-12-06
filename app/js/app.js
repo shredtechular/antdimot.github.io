@@ -5,6 +5,12 @@ var app = angular.module('onepageblog', [
     'appControllers'
 ]);
 
+app.config(['$logProvider',
+    function($logProvider) {
+        $logProvider.debugEnabled(true);
+    }
+]);
+
 app.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
@@ -19,5 +25,6 @@ app.config(['$routeProvider',
             otherwise({
                 redirectTo: '/home'
             });
-    }]);
+    }
+]);
 
