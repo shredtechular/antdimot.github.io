@@ -1,5 +1,14 @@
-<div ng-controller="ArticleCtrl">
-    <div ng-bind-html="articleText"></div>
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+        <div ng-include="'partials/menu-include.html'"></div>
+    </div>
+    <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+        <div ng-controller="ArticleCtrl">
+
+            <div ng-bind-html="articleText"></div>
+
+        </div>
+    </div>
 </div>
 
 <script>
