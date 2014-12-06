@@ -1,4 +1,4 @@
-# One page blog
+# One Page Blog using AngularJS and Markdown
 
 Yes, I have changed my blog again, but this time i decided to design and code it personally.
 

@@ -9,11 +9,11 @@ app.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
             when('/home', {
-                templateUrl: 'partials/home-view.html',
+                templateUrl: 'partials/views/home-view.html',
                 controller: 'HomeCtrl'
             }).
             when('/article/:filename', {
-                templateUrl: 'partials/article-view.html',
+                templateUrl: 'partials/views/article-view.html',
                 controller: 'ArticleCtrl'
             }).
             otherwise({
