@@ -7,7 +7,7 @@ var app = angular.module('onepageblog', [
 
 app.config(['$logProvider',
     function($logProvider) {
-        $logProvider.debugEnabled(true);
+        $logProvider.debugEnabled(false);
     }
 ]);
 
