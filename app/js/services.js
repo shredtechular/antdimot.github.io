@@ -1,12 +1,12 @@
 
 
-app.factory("dataService", [ '$http', '$log',
-    function($http,$log) {
+app.factory("dataService", [ '$http', '$log', 'appConfig',
+    function( $http, $log, appConfig ) {
         return {
             getArticleList: function( getArticleList_successCallbak ) {
                 $log.debug('dataService.getArticleList');
 
-                $http.get('data/articles.json').success( function(data) {
+                $http.get( appConfig.dataPath + '/articles.json').success( function(data) {
                     $log.debug(data);
 
                     getArticleList_successCallbak(data);
@@ -15,7 +15,7 @@ app.factory("dataService", [ '$http', '$log',
             getArticle: function( paramid, getArticle_successCallbak ) {
                 $log.debug("dataService.getArticle");
 
-                var url = 'data/' + paramid + ".md";
+                var url =  appConfig.dataPath + '/' + paramid + ".md";
 
                 $http.get(url).success(function(data) {
                     getArticle_successCallbak(data);
