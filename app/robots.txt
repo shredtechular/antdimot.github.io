@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: http://antdimot.github.io/app/sitemap.xml
